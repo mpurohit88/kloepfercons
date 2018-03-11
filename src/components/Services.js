@@ -14,9 +14,9 @@ export default class ContactUs extends Component {
       <div> 
         <div class="services">
           <div class="container">
-            <h3>Services</h3>
-            <div class="col-md-4 ser-left-grid w3-agile">
-              <h4>Main Services</h4>
+            <h3>Services for Commercial Customers</h3>
+            {/* <div class="col-md-4 ser-left-grid w3-agile">
+              <h4>Some of the services we provide are:</h4>
               <p>At vero eos et accusamus et iusto odio dignissimos ducimus 
               qui blanditiis praesentium voluptatum deleniti atque corrupti. </p>
               <ul>
@@ -25,8 +25,8 @@ export default class ContactUs extends Component {
                 <li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Molestiae consequatur moles</a></li>
                 <li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Doloremque laudantium dolor</a></li>
               </ul>
-            </div>
-            <div class="col-md-8 ser-right-grid w3-agile">
+            </div> */}
+            <div class="col-md-12 ser-right-grid w3-agile">
               <div class="col-sm-6 main-ser">
                   <div class="cont-grid-left wel-grid">
                     <div class="btm-clr4">
@@ -36,8 +36,8 @@ export default class ContactUs extends Component {
                     </div>
                   </div>
                   <div class="cont-grid-right">
-                    <h4>Voluptatem</h4>
-                    <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+                    {/* <h4>Voluptatem</h4> */}
+                    <p> Water heater/tankless water heater installation.</p>
                   </div>
                   <div class="clearfix"></div>
               </div>
@@ -50,8 +50,8 @@ export default class ContactUs extends Component {
                     </div>
                   </div>
                   <div class="cont-grid-right">
-                    <h4>Voluptatem</h4>
-                    <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+                    {/* <h4>Voluptatem</h4> */}
+                    <p> Catch basin and manhole repair/replacement.</p>
                   </div>
                   <div class="clearfix"></div>
               </div>
@@ -64,8 +64,8 @@ export default class ContactUs extends Component {
                     </div>
                   </div>
                   <div class="cont-grid-right">
-                    <h4>Voluptatem</h4>
-                    <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+                    {/* <h4>Voluptatem</h4> */}
+                    <p> Sewer rodding and video inspection.</p>
                   </div>
                   <div class="clearfix"></div>
               </div>
@@ -78,8 +78,8 @@ export default class ContactUs extends Component {
                     </div>
                   </div>
                   <div class="cont-grid-right">
-                    <h4>Voluptatem</h4>
-                    <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+                    {/* <h4>Voluptatem</h4> */}
+                    <p> Site sewer and water excavation.</p>
                   </div>
                   <div class="clearfix"></div>
               </div>
