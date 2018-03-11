@@ -7,7 +7,9 @@ export default class Header extends Component {
           <div className="header wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
             <div className="container">
               <div className="logo">
-                <h1><a href="index.html"><i><img src="images/logo.png" alt="" /></i>Real Plantation<span>A Best Real Estate</span></a></h1>
+                <h1>
+                  <Link to="/" ><i><img src="images/logo.png" alt="" /></i>Kloepfers<span>A Best Construction Company</span></Link>
+                </h1>
               </div>
               <div className="header-left">
                 <nav className="navbar navbar-default">

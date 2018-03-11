@@ -5,17 +5,15 @@ export default class Footer extends Component {
 		return (
       <div className="footer-w3layouts-agileinfo">
       <div className="container">
-        <h2>Get In Touch</h2>
-        <p className="para">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
+        <h2>Get In Touch - 24-hour Emergency Service  Available</h2>
+        <p className="para">For emergencies phone Jeremy  Kloepfer at: 847-280-1603 <br /> For non-emergencies  phone: 847-272-6101</p>
         <div className="col-md-6 footer-left-wthree-agileits wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.1s">
           <div className="col-sm-2 foo-left text-center">
             <span className="glyphicon glyphicon-pencil" aria-hidden="true"></span>
           </div>
           <div className="col-sm-10 foo-right w3l-agile">
             <h4>Information</h4>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus
-            qui blanditiis vero eos et accusamus et iusto dignissimos ducimus
-            qui blanditiis.</p>
+            <p>Written Estimates Provided - We Accept All Major Credit Cards</p>
             <ul className="fb_icons">
               <li><a className="fb" href="#"></a></li>
               <li><a className="twit" href="#"></a></li>
@@ -43,7 +41,7 @@ export default class Footer extends Component {
           <div className="clearfix"></div>
         </div>
         <div className="clearfix"></div>
-        <p className="copy-right">&copy; 2017 Real Plantation. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+        <p className="copy-right">Content Copyright &copy; 2013 Kloepfer Construction Inc. All Rights Reserved</p>
       </div>
     </div>
     )

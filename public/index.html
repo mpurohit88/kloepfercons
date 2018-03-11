@@ -29,39 +29,74 @@
     <!-- start-smoth-scrolling -->
     <script type="text/javascript" src="js/move-top.js"></script>
     <script type="text/javascript" src="js/easing.js"></script>
+    <!-- swipe box js -->
+    <script src="js/jquery.swipebox.min.js"></script> 
     <script type="text/javascript">
+      jQuery(function($) {
+        $(".swipebox").swipebox();
+      });
+    </script>
+
+    <!-- //swipe box js -->
+    <script type="text/javascript">
+    	
+        
       jQuery(document).ready(function($) {
         $(".scroll").click(function(event){		
           event.preventDefault();
           $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
         });
+
         jQuery("#slider3").responsiveSlides({
-											auto: true,
-											pager: true,
-											nav: false,
-											speed: 500,
-											namespace: "callbacks",
-											before: function () {
-												jQuery('.events').append("<li>before event fired.</li>");
-										},
-										after: function () {
-											jQuery('.events').append("<li>after event fired.</li>");
-											}
-                      });
-                      $('#parentHorizontalTab').easyResponsiveTabs({
-					type: 'default', //Types: default, vertical, accordion
-					width: 'auto', //auto or any width like 600px
-					fit: true, // 100% fit in a container
-					tabidentify: 'hor_1', // The tab groups identifier
-					activate: function(event) { // Callback function if tab is switched
-						var $tab = $(this);
-						var $info = $('#nested-tabInfo');
-						var $name = $('span', $info);
-						$name.text($tab.text());
-						$info.show();
-					}
+				auto: true,
+				pager: true,
+				nav: false,
+				speed: 500,
+				namespace: "callbacks",
+				before: function () {
+					jQuery('.events').append("<li>before event fired.</li>");
+			},
+			after: function () {
+				jQuery('.events').append("<li>after event fired.</li>");
+				}
 				});
 
+			function close_accordion_section() {
+				jQuery('.accordion .accordion-section-title').removeClass('active');
+				jQuery('.accordion .accordion-section-content').slideUp(300).removeClass('open');
+			}
+
+			jQuery('.accordion-section-title').click(function(e) {
+				// Grab current anchor value
+				var currentAttrValue = jQuery(this).attr('href');
+
+				if(jQuery(e.target).is('.active')) {
+					close_accordion_section();
+				}else {
+					close_accordion_section();
+
+					// Add active class to section title
+					jQuery(this).addClass('active');
+					// Open up the hidden content panel
+					jQuery('.accordion ' + currentAttrValue).slideDown(300).addClass('open'); 
+				}
+
+				e.preventDefault();
+			});
+        
+        $('#parentHorizontalTab').easyResponsiveTabs({
+          type: 'default', //Types: default, vertical, accordion
+          width: 'auto', //auto or any width like 600px
+          fit: true, // 100% fit in a container
+          tabidentify: 'hor_1', // The tab groups identifier
+          activate: function(event) { // Callback function if tab is switched
+          var $tab = $(this);
+          var $info = $('#nested-tabInfo');
+          var $name = $('span', $info);
+          $name.text($tab.text());
+          $info.show();
+          }
+        });
 				// Child Tab
 				$('#ChildVerticalTab_1').easyResponsiveTabs({
 					type: 'vertical',

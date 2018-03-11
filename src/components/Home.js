@@ -1,35 +1,10 @@
 import React, { Component } from 'react'
-import jQuery from 'jquery'
 
 import Banner from './Banner'
 
 export default class Home extends Component {
 
 	componentDidMount() {
-		jQuery(document).ready(function() {
-			function close_accordion_section() {
-				jQuery('.accordion .accordion-section-title').removeClass('active');
-				jQuery('.accordion .accordion-section-content').slideUp(300).removeClass('open');
-			}
-
-			jQuery('.accordion-section-title').click(function(e) {
-				// Grab current anchor value
-				var currentAttrValue = jQuery(this).attr('href');
-
-				if(jQuery(e.target).is('.active')) {
-					close_accordion_section();
-				}else {
-					close_accordion_section();
-
-					// Add active class to section title
-					jQuery(this).addClass('active');
-					// Open up the hidden content panel
-					jQuery('.accordion ' + currentAttrValue).slideDown(300).addClass('open'); 
-				}
-
-				e.preventDefault();
-			});
-		});
 	}
 	render() {
 		return (
@@ -37,19 +12,20 @@ export default class Home extends Component {
 				<Banner />
 				<div id="about" className="banner-bottom wow bounceInUp" data-wow-duration="1s" data-wow-delay="0s">
 					<div className="container">
-						<h3>ABOUT THIS PROPERTY</h3>
-						<p className="para1">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
+						<h3>We Solve Your Problems Beyond Your Expectations</h3>
+						<p className="para1">Welcome to Kloepfer Construction 
+Inc. a family-owned and operated Northbrook,  Illinois-based company 
+that can solve your most important home and commercial  plumbing, 
+demolition and sewer needs.</p>
 						<div className="col-md-4 bottom-grid multi-gd-text">
-							<a href="gallery.html"><img src="images/pic6.jpg" alt=" "/></a>
+							<a href="gallery.html"><img src="images/jk3.jpg" alt=" "/></a>
 						</div>
 						<div className="col-md-4 bottom-grid mar-pad">
 							<div  id="top" className="callbacks_container">
 								<ul className="rslides" id="slider3">
 									<li>
-										<h4>Exercitationem</h4>
-										<p>At vero eos et accusamus et iusto odio dignissimos ducimus
-											qui blanditiis vero eos et accusamus et iusto dignissimos ducimus
-											qui blanditiis.</p>
+										<h4>We're #1 with Your #2 Problem!</h4>
+										<p>You can rely on Kloepfer Construction for all your residential and commercial plumbing and sewer service needs. No  job is too big or too small. We pride ourselves on our customer service</p>
 									</li>
 									<li>
 										<h4>Dignissimos</h4>
@@ -73,7 +49,7 @@ export default class Home extends Component {
 							</div>
 						</div>
 						<div className="col-md-4 bottom-grid multi-gd-text">
-							<a href="gallery.html"><img src="images/pic7.jpg" alt=" "/></a>
+							<a href="gallery.html"><img src="images/Main_installation2.jpg" alt=" "/></a>
 						</div>
 						<div className="clearfix"></div>
 					</div>
