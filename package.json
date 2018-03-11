@@ -50,8 +50,11 @@
     "whatwg-fetch": "1.0.0"
   },
   "dependencies": {
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "jquery": "^2.1.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-hot-loader": "^4.0.0",
+    "react-router-dom": "^4.2.2"
   },
   "scripts": {
     "start": "node scripts/start.js",
