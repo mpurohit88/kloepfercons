@@ -27,7 +27,7 @@ demolition and sewer needs.</p>
 										<h4>We're #1 with Your #2 Problem!</h4>
 										<p>You can rely on Kloepfer Construction for all your residential and commercial plumbing and sewer service needs. No  job is too big or too small. We pride ourselves on our customer service</p>
 									</li>
-									<li>
+									{/* <li>
 										<h4>Dignissimos</h4>
 										<p>At vero eos et accusamus et iusto odio dignissimos ducimus
 											qui blanditiis vero eos et accusamus et iusto dignissimos ducimus
@@ -44,7 +44,7 @@ demolition and sewer needs.</p>
 										<p>At vero eos et accusamus et iusto odio dignissimos ducimus
 											qui blanditiis vero eos et accusamus et iusto dignissimos ducimus
 											qui blanditiis.</p>
-									</li>
+									</li> */}
 								</ul>
 							</div>
 						</div>
@@ -54,7 +54,7 @@ demolition and sewer needs.</p>
 						<div className="clearfix"></div>
 					</div>
 				</div>
-				<div className="main_ser w3layouts-agileinfo">
+				{/* <div className="main_ser w3layouts-agileinfo">
 					<div className="container">
 						<div className="col-md-7 main_ser_one w3l-agile wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.1s">
 							<h3>Easy buying & selling homes</h3>
@@ -152,18 +152,18 @@ demolition and sewer needs.</p>
 						</div>
 						<div className="clearfix"></div>
 					</div>
-				</div>
+				</div> */}
 				<div className="treatments">
-					<h3>Featured Properties</h3>
-					<p className="para1">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
+					<h3>Some of the services we provide are</h3>
+					<p className="para1">Commercial customers can rely on Kloepfer Construction for all their sewer, plumbing and demolition needs. No job is too big or too small. We accept small commercial, large industrial and village jobs.</p>
 					<div className="col-md-4 treat-grids treat-pad wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0s">
-						<h5>Our Featured Services</h5>
+						<h5>Services for Commercial Customers</h5>
 						<ul>
-							<li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Voluptatem accusantium volup</a></li>
-							<li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Doloremque laudantium dolor</a></li>
-							<li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Molestiae consequatur moles</a></li>
-							<li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Doloremque laudantium dolor</a></li>
-							<li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Molestiae consequatur moles</a></li>
+							<li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Water heater/tankless water heater installation.</a></li>
+							<li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Catch basin and manhole repair/replacement.</a></li>
+							<li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Sewer rodding and video inspection.</a></li>
+							<li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Site sewer and water excavation.</a></li>
+							<li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Sewer installation and repair.</a></li>
 						</ul>
 					</div>
 					<div className="col-md-4 treat-grids grid wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.1s">	
@@ -175,13 +175,13 @@ demolition and sewer needs.</p>
 						</figure>
 					</div>
 					<div className="col-md-4 treat-grids treat-pad wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
-						<h5>We Offers</h5>
+						<h5>Demolition.</h5>
 							<ul>
-								<li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Voluptatem accusantium volup</a></li>
-								<li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Doloremque laudantium dolor</a></li>
+								<li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Overhead sewer installation.</a></li>
+								{/* <li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Doloremque laudantium dolor</a></li>
 								<li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Molestiae consequatur moles</a></li>
 								<li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Doloremque laudantium dolor</a></li>
-								<li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Molestiae consequatur moles</a></li>
+								<li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Molestiae consequatur moles</a></li> */}
 							</ul>
 					</div>
 					<div className="col-md-4 treat-grids grid wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">	
@@ -193,14 +193,13 @@ demolition and sewer needs.</p>
 						</figure>
 					</div>
 					<div className="col-md-4 treat-grids treat-head treat_mar wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
-						<h4>Our Best Constructors</h4>
-						<p>At vero eos et accusamus et iusto 
-						odio dignissimos ducimus qui blanditiis
-						praesentium voluptatum deleniti atque 
-						corrupti quos dolores et quas molestias 
-						except.</p>
-						<p>At vero eos et accusamus et iusto 
-						odio dignissimos ducimus qui blanditiis.</p>
+					<ul>
+							<li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Emergency services for water main repair.</a></li>
+							<li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Clean out installation on sewer lines.</a></li>
+							<li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Repiping old lead pipes to new copper piping.</a></li>
+							<li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Sump pump installation and repair.</a></li>
+							<li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Toilet and faucet repair.</a></li>
+						</ul>
 					</div>
 					<div className="col-md-4 treat-grids grid treat_mar wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
 						<figure className="effect-apollo">

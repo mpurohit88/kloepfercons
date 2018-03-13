@@ -33,7 +33,7 @@ export default class Header extends Component {
                           <Link to="/services" className="hvr-bounce-to-bottom">Services</Link>
                         </li>
                         <li>
-                          <Link to="/properties" className="hvr-bounce-to-bottom">Properties</Link>
+                          <Link to="/our-work" className="hvr-bounce-to-bottom">Our Work</Link>
                         </li>
                         {/* <li className="dropdown">
                           <a href="codes.html" className="dropdown-toggle hvr-bounce-to-bottom" data-hover="Pages" data-toggle="dropdown" aria-expanded="false">Pages <b className="caret"></b></a>
