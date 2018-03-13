@@ -1,9 +1,3 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
 html, body{
 	margin:0;
 	font-size: 100%;
@@ -180,7 +174,6 @@ a.hvr-bounce-to-bottom:before {
   right: 0;
   bottom: 0;
   background:#1DABB8;
-  	 /*-- w3layouts --*/
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 0;
@@ -280,7 +273,6 @@ a.hvr-outline-out {
     margin: 0 62px;
     border: 2px solid #fff;
     line-height: 5.5em;
-		 /*-- w3layouts --*/
 }
 .ban-col1{
     background: #C82647;	
@@ -302,12 +294,11 @@ a.hvr-outline-out {
     margin-top: 40px;
 }
 /*-- //banner --*/
-/*-- footer-w3layouts-agileinfo --*/
-.footer-w3layouts-agileinfo{
+.footer-agileinfo{
 	padding:4em 0;
 	background:#2D2D2D;
 }
-.footer-w3layouts-agileinfo h2{
+.footer-agileinfo h2{
     color: #1DABB8;
     text-align: center;
     font-size: 33px;
@@ -403,7 +394,6 @@ p.copy-right a{
 p.copy-right a:hover{
     color: #fff;
 }
-/*-- //footer-w3layouts-agileinfo --*/
 /*-- banner bottom --*/
 .banner-bottom{
 	padding:6em 0;
@@ -2053,7 +2043,7 @@ ol {
 	.ban-icon3 {
 		margin: 55px 136px 0;
 	}
-	.banner-bottom h3,.main_ser_one h3 ,.treatments h3,.contact h3, .short_codes h3.title, .services h3, .services_bot h3, .ser-foo h3, .gallery h3,.footer-w3layouts-agileinfo h2{
+	.banner-bottom h3,.main_ser_one h3 ,.treatments h3,.contact h3, .short_codes h3.title, .services h3, .services_bot h3, .ser-foo h3, .gallery h3,.footer-agileinfo h2{
 		font-size: 32px;
 	}
 	.mar-pad {
@@ -2286,7 +2276,7 @@ ol {
 	.bottom-grid h4 {
 		margin-bottom: 9px;
 	}
-	.banner-bottom h3, .main_ser_one h3, .treatments h3, .contact h3, .short_codes h3.title, .services h3, .services_bot h3, .ser-foo h3, .gallery h3, .footer-w3layouts-agileinfo h2 {
+	.banner-bottom h3, .main_ser_one h3, .treatments h3, .contact h3, .short_codes h3.title, .services h3, .services_bot h3, .ser-foo h3, .gallery h3, .footer-agileinfo h2 {
 		font-size: 28px;
 	}
 	.cont-grid-one {
@@ -2310,11 +2300,11 @@ ol {
 	.treat_mar{
 		margin-bottom:0 !important;
 	}
-	.footer-w3layouts-agileinfo-left {
+	.footer-agileinfo-left {
 		float: left;
 		width: 50%;
 	}
-	.footer-w3layouts-agileinfo-right {
+	.footer-agileinfo-right {
 		float: left;
 		width: 50%;
 	}
@@ -2481,7 +2471,7 @@ ol {
 		top: 82%;
 		left: 39.5%;
 	}
-	.footer-w3layouts-agileinfo-left,.footer-w3layouts-agileinfo-right {
+	.footer-agileinfo-left,.footer-agileinfo-right {
 		float: left;
 		width: 100%;
 		padding:0;
@@ -2498,7 +2488,7 @@ ol {
 		float: left;
 		width: 10%;
 	}
-	.footer-w3layouts-agileinfo-right {
+	.footer-agileinfo-right {
 		margin-top: 35px;
 	}
 	.foo-right h4 {
@@ -2632,7 +2622,7 @@ ol {
 	h1.t-button, h2.t-button, h3.t-button, h4.t-button, h5.t-button {
 		font-size: 18px;
 	}
-	.banner-bottom h3, .main_ser_one h3, .treatments h3, .contact h3, .short_codes h3.title, .services h3, .services_bot h3, .ser-foo h3, .gallery h3, .footer-w3layouts-agileinfo h2 {
+	.banner-bottom h3, .main_ser_one h3, .treatments h3, .contact h3, .short_codes h3.title, .services h3, .services_bot h3, .ser-foo h3, .gallery h3, .footer-agileinfo h2 {
 		font-size: 30px;
 	}
 	.ban-icon3 {
@@ -2743,10 +2733,10 @@ ol {
 	.banner {
 		min-height: 328px;
 	}
-	.banner-bottom, .main_ser, .treatments, .contact, .short_codes, .services, .services_bot, .ser-foo, .gallery ,.footer-w3layouts-agileinfo{
+	.banner-bottom, .main_ser, .treatments, .contact, .short_codes, .services, .services_bot, .ser-foo, .gallery ,.footer-agileinfo{
 		padding: 3em 0;
 	}
-	.banner-bottom h3, .main_ser_one h3, .treatments h3, .contact h3, .short_codes h3.title, .services h3, .services_bot h3, .ser-foo h3, .gallery h3, .footer-w3layouts-agileinfo h2 {
+	.banner-bottom h3, .main_ser_one h3, .treatments h3, .contact h3, .short_codes h3.title, .services h3, .services_bot h3, .ser-foo h3, .gallery h3, .footer-agileinfo h2 {
 		font-size: 29px;
 	}
 	.treat-grids {
@@ -2912,7 +2902,7 @@ ol {
 	.treat-grids {
 		margin: 0px auto 21px !important;
 	}
-	.banner-bottom h3, .main_ser_one h3, .treatments h3, .contact h3, .short_codes h3.title, .services h3, .services_bot h3, .ser-foo h3, .gallery h3, .footer-w3layouts-agileinfo h2 {
+	.banner-bottom h3, .main_ser_one h3, .treatments h3, .contact h3, .short_codes h3.title, .services h3, .services_bot h3, .ser-foo h3, .gallery h3, .footer-agileinfo h2 {
 		font-size: 26px;
 	}
 	.foo-left {
@@ -2986,7 +2976,7 @@ ol {
 	.dropdown-menu {
 		min-width: 117px;
 	}
-	.banner-bottom h3, .main_ser_one h3, .treatments h3, .contact h3, .short_codes h3.title, .services h3, .services_bot h3, .ser-foo h3, .gallery h3, .footer-w3layouts-agileinfo h2 {
+	.banner-bottom h3, .main_ser_one h3, .treatments h3, .contact h3, .short_codes h3.title, .services h3, .services_bot h3, .ser-foo h3, .gallery h3, .footer-agileinfo h2 {
 		font-size: 22px;
 	}
 }

@@ -39,28 +39,6 @@ export default class ContactUs extends Component {
                         <input type="submit" value="Submit" />
                       </form>
                     </div>
-                    {/* <div>
-                      <div className="map-grid">
-                      <h5>Our Branches</h5>
-                        <ul>
-                          <li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>756 global Place, New York.</li>
-                          <li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>889 diamond street, USA.</li>
-                          <li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>756 global Place, New York.</li>
-                          <li><span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>889 diamond street, USA.</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div>
-                      <div className="map-grid">
-                        <h5>Contact Me Through</h5>
-                        <ul>
-                          <li>Mobile No : +123 456 7890</li>
-                          <li>Office No : +123 222 2222</li>
-                          <li>Home No : +123 456 7890</li>
-                          <li>Fax No : +123 456 7890</li>
-                        </ul>
-                      </div>
-                    </div> */}
                   </div>
                 </div>
               </div>

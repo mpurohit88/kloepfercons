@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Footer extends Component {
   render() {
 		return (
-      <div className="footer-w3layouts-agileinfo">
+      <div className="footer-agileinfo">
       <div className="container">
         <h2>Get In Touch - 24-hour Emergency Service  Available</h2>
         <p className="para">For emergencies phone Jeremy  Kloepfer at: 847-280-1603 <br /> For non-emergencies  phone: 847-272-6101</p>
