@@ -2,11 +2,29 @@ import React, { Component } from 'react'
 import $ from 'jquery'
 
 export default class ContactUs extends Component {
+  constructor(props){
+    super(props);
+    this.state = {to: ''};
+  }
+
   componentDidMount() {
+
 		$(document).ready(function() {
       	//Horizontal Tab
-				
-    });
+			var from,to,subject,text;
+       $("#send_email").click(function(){      
+            to=$("#to").val();
+            subject=$("#subject").val();
+            text=$("#content").val();
+            $("#message").text("Sending E-mail...Please wait");
+            $.get("http://localhost:3001/send",{to:to,subject:subject,text:text},function(data){
+              if(data=="sent")
+              {
+                $("#message").empty().html("Email is been sent at "+to+" . Please check inbox!");
+              }
+            });
+          });
+      });
   }
 
   render() {
@@ -33,10 +51,10 @@ export default class ContactUs extends Component {
                   <div className="resp-tabs-container hor_1">
                     <div>
                       <form action="#" method="post">
-                        <input type="text" value="Name" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Name';}" required="" />
-                        <input type="email" value="Email" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Email';}" required="" />
-                        <textarea onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
-                        <input type="submit" value="Submit" />
+                        <input id="to" type="text" required="" placeholder="Email Address" />
+                        <input id="subject" type="email" required=""  placeholder="Subject"/>
+                        <textarea id="content" required="" placeholder="Message..."></textarea>
+                        <input id="send_email" type="button" value="Submit" />
                       </form>
                     </div>
                   </div>
