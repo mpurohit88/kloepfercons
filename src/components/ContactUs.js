@@ -17,7 +17,7 @@ export default class ContactUs extends Component {
             subject=$("#subject").val();
             text=$("#content").val();
             $("#message").text("Sending E-mail...Please wait");
-            $.get("http://localhost:3001/send",{to:to,subject:subject,text:text},function(data){
+            $.get("https://expressemailapi.herokuapp.com/send",{to:to,subject:subject,text:text},function(data){
               if(data=="sent")
               {
                 $("#message").empty().html("Email is been sent at "+to+" . Please check inbox!");
